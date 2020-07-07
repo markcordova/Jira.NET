@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jira.NET", "Jira.NET\Jira.NET.csproj", "{A2D91B21-086E-46B4-8769-D3F361A6828D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jira.NET.Tests", "Jira.NET.Tests\Jira.NET.Tests.csproj", "{60FB4462-6E96-4F9D-BB11-528817BF7F47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2D91B21-086E-46B4-8769-D3F361A6828D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D91B21-086E-46B4-8769-D3F361A6828D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D91B21-086E-46B4-8769-D3F361A6828D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D91B21-086E-46B4-8769-D3F361A6828D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FB4462-6E96-4F9D-BB11-528817BF7F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FB4462-6E96-4F9D-BB11-528817BF7F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FB4462-6E96-4F9D-BB11-528817BF7F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FB4462-6E96-4F9D-BB11-528817BF7F47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B1FD7E8-E749-4B73-A318-F9EAA1C21174}
+	EndGlobalSection
+EndGlobal
