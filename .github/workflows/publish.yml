@@ -19,7 +19,7 @@ jobs:
         run: dotnet restore
 
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build --configuration Release --no-restore Jira.NET/Jira.NET.csproj
         
       - name: Publish Jira.NET
         id: publish_nuget
