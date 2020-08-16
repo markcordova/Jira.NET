@@ -17,6 +17,13 @@ namespace Jira.NET
         private readonly IRestClientFactory clientFactory;
         private List<FieldInfo> fields = null;
 
+        // Strictly speaking this is bad design, we shouldn't be coupling this class with a concrete implementation of it's dependency.
+        // However, we will err on the side of user convenience over textbook cleanliness (I hope I don't regret this in the future).
+        public JiraClient(string baseurl, string username, string password) : this(new RestClientFactory(baseurl, username, password))
+        {
+
+        }
+
         public JiraClient(IRestClientFactory factory)
         {
             clientFactory = factory;
@@ -133,6 +140,7 @@ namespace Jira.NET
 
             return results;
         }
+
 
         private async Task<IRestResponse> ExecuteAsync(IRestClient client, IRestRequest request)
         {
