@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{4314
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jira.NET.Sample.BasicUsage", "Samples\Jira.NET.Sample.BasicUsage\Jira.NET.Sample.BasicUsage.csproj", "{9596A149-8C5E-4AFA-B36F-66749B7359DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jira.NET.Sample.AdvancedUsage", "Samples\Jira.NET.Sample.AdvancedUsage\Jira.NET.Sample.AdvancedUsage.csproj", "{4A80B2FB-2D4D-4D8A-923E-4AEB6392FA11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +31,17 @@ Global
 		{9596A149-8C5E-4AFA-B36F-66749B7359DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9596A149-8C5E-4AFA-B36F-66749B7359DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9596A149-8C5E-4AFA-B36F-66749B7359DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A80B2FB-2D4D-4D8A-923E-4AEB6392FA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A80B2FB-2D4D-4D8A-923E-4AEB6392FA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A80B2FB-2D4D-4D8A-923E-4AEB6392FA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A80B2FB-2D4D-4D8A-923E-4AEB6392FA11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9596A149-8C5E-4AFA-B36F-66749B7359DA} = {43146555-A995-4B91-BC6D-82A6299B6182}
+		{4A80B2FB-2D4D-4D8A-923E-4AEB6392FA11} = {43146555-A995-4B91-BC6D-82A6299B6182}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B1FD7E8-E749-4B73-A318-F9EAA1C21174}
